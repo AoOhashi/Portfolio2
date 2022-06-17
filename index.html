@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+        <title>TD Bank</title>
+        <meta name="keywords" content="TD Bank,ホームページ,口座開設,住宅ローン,外貨預金,投資信託">
+        <meta name="description" content="TD Bankのホームページです。口座開設、住宅ローン、外貨預金、投資信託等の各種商品・サービスについて掲載しています。インターネットバンキングでは、残高照会や振込、外貨預金や投資信託のお取り引きの他、便利なWeb通帳もご利用いただけます。">
+
+        
+        <!--ファビコン-->
+        <link rel="icon" src="images/favicon.png">
+        
+       <!--snsアイコン-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        
+<!--googlefont-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        
+			
+<!--ビューポートの設定-->
+	   <meta name="viewport" content="width=device-width,initial-scale=1">
+
+	   <link rel="stylesheet" href="css/style.css" media="screen and (min-width:901px)">
+	<!--※デフォルトのスタイル（style.css-->
+
+	   <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width:900px) and (min-width:601px)">
+	<!--※タブレット用のスタイル（tablet.css）-->
+
+	   <link rel="stylesheet" href="css/smart.css" media="screen and (max-width:600px)">
+	<!--※スマートフォン用のスタイル（smart.css）-->
+    
+    <!--type属性はなくても機能する-->
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        
+        <script type="text/javascript" src="js/slick.js"></script>
+        
+        <script type="text/javascript">
+            $(function(){
+                $('.single-item').slick({
+                    accessibility: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    dots: true,
+                    fade: true,
+                });
+            });
+            </script>
+            <!--JavaScript内部では、オプション設定をしています。
+
+            「accessibility」：左右ボタンの画像の切り替え設定
+            「autoplay」：自動再生設定
+            「autoplaySpeed」：自動再生で切り替えをする時間
+            「dots」：ページ送りのドット表示
+            「fade」：フェードの有無-->
+        
+<!--スクロール-->
+            <script>
+
+		$(function() {
+			var showFlag = false;
+			var topBtn = $('#page-top');
+			topBtn.css('bottom', '-100px');
+			var showFlag = false;
+			//スクロールが100に達したらボタン表示
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 300) {
+					if (showFlag == false) {
+						showFlag = true;
+						topBtn.stop().animate({'bottom' : '20px'}, 200); 
+					}
+				} else {
+					if (showFlag) {
+						showFlag = false;
+						topBtn.stop().animate({'bottom' : '-100px'}, 200);
+					}
+				}
+			});
+			//スクロールしてトップ
+			topBtn.click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 500);//0.5秒かけて戻る
+				return false;
+			});
+		});
+	</script>
+        
+        <script type="text/javascript">
+            
+            $(function() {
+  $('.btn-gNav').on("click", function(){
+
+    $(this).toggleClass('open');
+    $('#gNav').toggleClass('open');
+  });
+
+});
+
+// メニューをクリックされたら、非表示にする
+$(function() {
+  $('.gNav-menu li a').on("click", function(){
+     $('#gNav').removeClass('open');
+  });
+});
+        
+        </script>
+        
+	</head>
+<body>
+    <div class="topimage-box">
+            <header>
+            <h1><img src="images/td-bank-logoV2-a7f3f3a91d914da5a3165ea6a287fbce.png" alt="logo"></h1>
+                
+                <div id="hamburger">
+  <div class="btn-gNav">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+<div class="nav-box">
+  <nav id="gNav" class="">
+    <ul class="gNav-menu">
+      <li><a href="index.html">ホーム</a></li>
+        <li><a href="index.html">個人のお客様</a></li>
+                    <li><a href="index.html">法人のお客様</a></li>
+                    <li><a href="index.html">企業情報</a></li>
+                    <li><a href="index.html">サステナビリティ</a></li>
+                    <li><a href="index.html">採用のご案内</a></li>
+    </ul>
+  </nav>
+    <div class="searchArea" id="makeImg">
+        <input type="text" id="inText" class="searchText">
+        <div class="searchButton">
+            <span>検索</span>
+        </div>
+    </div>
+    </div>
+</div>
+</header>
+            <div class="scroll">
+  <span>⚠ TD Bankを名乗る偽メール・偽SMSにご注意ください!
+
+</span>
+</div>
+            <div class="catch-box">
+                <p>オンライン</p>
+                    <a class="bn31" href="/"><span class="bn31span">ログイン</span></a>
+                <p>はじめての方</p>
+                    <a class="bn31" href="/"><span class="bn31span">新規口座開設</span></a>
+                </div>
+            </div>
+    <main>
+        <section>
+            <div class="service-box">
+                <h2>商品・サービス</h2>
+                <div class="icon-box">
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon1.png">
+                            </a>                        <span class="balloon">ダイレクト</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon4.png">
+                            </a>                        <span class="balloon">デビットカード</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                            <div class="balloonoya">
+                            <a href=""><img src="images/icon3.png">
+                                </a>                        <span class="balloon">クレジットカード</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon19.png"></a>
+                        <span class="balloon">口座開設</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-box">
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon9.png">
+                            </a><span class="balloon">投資信託</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon6.png">
+                            </a><span class="balloon">積立投資</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon11.png"></a>
+                        <span class="balloon">住宅ローン</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon16.png"></a>
+                        <span class="balloon">定期預金</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-box">
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon15.png"></a>
+                        <span class="balloon">ATM</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon18.png"></a>
+                        <span class="balloon">ご来店予約</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon5.png">
+                            </a><span class="balloon">外国為替相場</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon14.png"></a>
+                        <span class="balloon">手数料・金利一覧</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-box">
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon20.png"></a>
+                        <span class="balloon">アプリ</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon13.png"></a>
+                        <span class="balloon">マイカーローン</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon21.png"></a>
+                        <span class="balloon">保険</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="balloonoya">
+                            <a href=""><img src="images/icon22.png"></a>
+                        <span class="balloon">教育ローン</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="border-box"></div>
+        <section>
+             <div class="campaign-box">
+                    <h2>キャンペーン</h2>
+                 <div class="campaign">
+                    <div class="campaign-img1">
+                        <div class="img_wrap">
+                            <a href=""><img src="images/campaign3.jpg"></a>
+                        </div>
+                        <a class="bn31" href="/"><span class="bn31span">口座開設</span></a>
+                    </div>
+                    <div class="campaign-img2">
+                        <div class="img_wrap">
+                            <a href=""><img src="images/campaign2.jpg"></a>
+                        </div>
+                        <a class="bn31" href="/"><span class="bn31span">カード</span></a>
+                    </div>
+                    <div class="campaign3-img">
+                        <div class="img_wrap">
+                            <a href=""><img src="images/campaign1.jpg"></a>
+                        </div>
+                        <a class="bn31" href="/"><span class="bn31span">NISA</span></a>
+                    </div>
+                    <div class="campaign-img4">
+                        <div class="img_wrap">
+                            <a href=""><img src="images/campaign4.jpg"></a>
+                        </div>
+                        <a class="bn31" href="/"><span class="bn31span">iDeCo</span></a>
+                    </div>
+                 </div>
+            </div>
+        </section>
+        <div class="border-box"></div>
+        <section>
+            <div class="news-box">
+                <h2>お知らせ</h2>
+                <ul>
+                    <li>2021年11月12日</li>
+                    <li><a href="">自己株式取得に係る事項の決定および自己株式消却に係る事項の決定に関するお知らせ</a></li>
+                </ul>
+                <ul>
+                    <li>2021年11月12日</li>
+                    <li><a href="">剰余金の配当（中間配当）および配当予想の修正に関するお知らせ</a></li>
+                </ul>
+                <ul>
+                    <li>2021年11月12日</li>
+                    <li><a href="">2022年3月期第2四半期決算 (TD Bankのサイトにリンクします)</a></li>
+                </ul>
+                <ul>
+                    <li>2021年11月11日</li>
+                    <li><a href="">当行フリーダイヤル0120-56-3143を利用した不審電話の件</a></li>
+                </ul>
+                <ul>
+                    <li>2021年11月10日</li>
+                    <li><a href="">2021年12月1日（水）より、「貸金庫規定」「貴重品保管サービス規定」を改定します。</a></li>
+                </ul>
+                <div class="news">
+                    <a class="bn31" href="/"><span class="bn31span">前へ</span></a>
+                </div>
+            </div>
+        </section>
+        <div class="border-box"></div>
+        <div id="page-top"><a href="#wrap">TOP</a></div>
+        <section>
+            <div class="question-title">
+                <h2>よくある質問</h2>
+            </div>
+                <div class="question-box">
+                        <div class="question">
+                            <h3>口座開設･アプリ･カード</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">口座開設</a></li>
+                                    <li><a href="">デビットカード</a></li>
+                                    <li><a href="">銀行アプリ</a></li>
+                                    <li><a href="">クレジットカード</a></li>
+                                    <li><a href="">普通預金</a></li>
+                                    <li><a href="">SMBCポイントパック</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="question">
+                            <h3>インターネットバンキング</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">Web通帳</a></li>
+                                    <li><a href="">電子メール配信サービス</a></li>
+                                    <li><a href="">振込・決済サービス</a></li>
+                                    <li><a href="">クレジットカード</a></li>
+                                    <li><a href="">外国送金・外貨両替</a></li>
+                                    <li><a href="">バンク＆トレード</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="question">
+                            <h3>預金・資産運用</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">定期預金・積立預金</a></li>
+                                    <li><a href="">資産づくりセット</a></li>
+                                    <li><a href="">外貨預金</a></li>
+                                    <li><a href="">SMBCファンドラップ</a></li>
+                                    <li><a href="">投資信託</a></li>
+                                    <li><a href="">債券（金融商品仲介）</a></li>
+                                    <li><a href="">NISA/つみたてNISA</a></li>
+                                    <li><a href="">個人向け国債</a></li>
+                                    <li><a href="">個人型確定拠出年金「iDeCo」</a></li>
+                                    <li><a href="">金商品のご紹介</a></li>
+                                    <li><a href="">外国為替</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="question">
+                            <h3>ローン</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">住宅ローン</a></li>
+                                    <li><a href="">カードローン</a></li>
+                                    <li><a href="">教育ローン</a></li>
+                                    <li><a href="">リバースモーゲージ</a></li>
+                                    <li><a href="">マイカーローン</a></li>
+                                    <li><a href="">アパートローン</a></li>
+                                    <li><a href="">フリーローン</a></li>
+                                    <li><a href="">開業医ローン</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                </div>
+                <div class="question-box">
+                    <div class="question">
+                        <h3>保険</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">終身保険</a></li>
+                                    <li><a href="">個人年金保険</a></li>
+                                    <li><a href="">定期保険</a></li>
+                                    <li><a href="">介護・認知症保険</a></li>
+                                    <li><a href="">医療保険</a></li>
+                                    <li><a href="">就業不能保険</a></li>
+                                    <li><a href="">子ども保険（学資保険）</a></li>
+                                    <li><a href="">がん保険</a></li>
+                                    <li><a href="">生活習慣病保険</a></li>
+                                    <li><a href="">ペット保険</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                    <div class="question">
+                        <h3>相続</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">ご自身の相続に備えたい方</a></li>
+                                    <li><a href="">大切な方が亡くなられたら</a></li>
+                                    <li><a href="">遺言信託</a></li>
+                                    <li><a href="">遺産整理</a></li>
+                                    <li><a href="">デジタル版エンディングノート</a></li>
+                                    <li><a href="">相続手続らくらくサービス</a></li>
+                                    <li><a href="">贈与・振込サポートサービス</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                    <div class="question">
+                        <h3>おトクなキャンペーン情報</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">宝くじ</a></li>
+                                    <li><a href="">貸金庫</a></li>
+                                    <li><a href="">Bank Pay</a></li>
+                                    <li><a href="">ジェイデビットカード</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                    <div class="question">
+                        <h3>お役立ち情報</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="">各種お手続</a></li>
+                                    <li><a href="">金利・手数料</a></li>
+                                    <li><a href="">マーケット情報</a></li>
+                                    <li><a href="">店舗・ATM</a></li>
+                                    <li><a href="">予約サービス</a></li>
+                                    <li><a href="">資料請求</a></li>
+                                    <li><a href="">よくあるご質問</a></li>
+                                    <li><a href="">お問い合わせ一覧</a></li>
+                                    <li><a href="">商品説明書</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                </div>
+    </section>
+    </main>
+    <div class="border-box"></div>
+    <section>
+        <div class="policy-box">
+            <div class="policy-title">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="index.html">個人のお客様</a></li>
+                        <li><a href="index.html">法人のお客様</a></li>
+                        <li><a href="index.html">企業情報</a></li>
+                        <li><a href="index.html">サステナビリティ</a></li>
+                        <li><a href="index.html">採用のご案内</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="policy">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">本サイトのご利用にあたって</a></li>
+                        <li><a href="index.html">サイトマップ</a></li>
+                        <li><a href="index.html">アクセシビリティ</a></li>
+                        <li><a href="index.html">プライバシーポリシー</a></li>
+                        <li><a href="index.html">法人のお客さまの情報の共同利用について</a></li>
+                        <li><a href="index.html">TD Bankの勧誘方針</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">セキュリティ</a></li>
+                        <li><a href="index.html">お取引時確認について</a></li>
+                        <li><a href="index.html">お取引目的等届出書について</a></li>
+                        <li><a href="index.html">口座開設時のお願い(個人)</a></li>
+                        <li><a href="index.html">口座開設時のお願い(法人)</a></li>
+                        <li><a href="index.html">利益相反管理方針の概要</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">反社会的勢力に対する基本方針</a></li>
+                        <li><a href="index.html">お客さま本位の業務運営に関する基本方針</a></li>
+                        <li><a href="index.html">外国為替業務に関する取引方針</a></li>
+                        <li><a href="index.html">電子決済等代行業者との連携及び協働に係る方針</a></li>
+                        <li><a href="index.html">「マネー・ローンダリング及びテロ資金供与対策に関するガイドライン」</a></li>
+                        <li><a href="index.html">SNS利用規約</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="last-box">
+            <p>TD Bank 登録金融機関 関東財務局長 第54号 加入協会 日本証券業協会、一般社団法人金融先物取引業協会、一般社団法人第二種金融商品取引業協会</p>
+            <p>金融機関コード0009</p>
+            <div class="last-icon">
+                <img src="images/td-bank-logoV2-a7f3f3a91d914da5a3165ea6a287fbce.png">
+                <a href="https://fontawesome.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://fontawesome.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://fontawesome.com/"><i class="fab fa-twitter"></i></a>
+                </div>
+            <p><small>Copyright © TD Bank.All Rights Reserved.</small></p>
+        </div>
+    </footer>
+</body>
+</html>
